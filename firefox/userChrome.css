@@ -1,0 +1,9 @@
+/*
+ stylish
+*/
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* 未ロードタブ */
+.tabbrowser-tab[pending=true], menuitem.alltabs-item[pending=true] {
+  opacity: 0.5;
+}
